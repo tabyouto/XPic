@@ -1,0 +1,17 @@
+{
+  "ret": 1,
+  "msg": "ok",
+  "data":{
+    "advertisement":{
+      "id":"1",
+      "ad_title":"活动",
+      "paltform":"ios",
+      "bg_date_time":"2015-1-2 10:23",
+      "end_date_time":"2015-1-18 12:12",
+      "resolution":"720*1280",
+      "geography_position":"湖北",
+      "status":"1"
+    }
+  }
+
+}
