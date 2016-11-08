@@ -28,13 +28,42 @@ a {
   transition: all .15s;
 }
 
-input {
+input,button {
   &:focus {
-    outline: none;
+    outline: none!important;
   }
 }
-
-
+.form-wrap {
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #ECF0F1;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  .form-control {
+    margin-left: 15%;
+    box-shadow: none;
+    width: 70%;
+    padding: 18px 10px;
+    color: #747474;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .btn-login {
+    background-color: #f54d3c;
+    color: #fff;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: none;
+    border: 1px solid #f54d3c;
+    &:focus {
+      color: #fff;
+    }
+    &:hover {
+      background-color: #E74C3C
+    }
+  }
+}
 
 /********************************/
 

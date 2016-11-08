@@ -9060,8 +9060,40 @@ a {
   color: #6f6f6f;
   transition: all .15s;
 }
-input:focus {
-  outline: none;
+input:focus,
+button:focus {
+  outline: none!important;
+}
+.form-wrap {
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #ECF0F1;
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
+.form-wrap .form-control {
+  margin-left: 15%;
+  box-shadow: none;
+  width: 70%;
+  padding: 18px 10px;
+  color: #747474;
+}
+.form-wrap .form-control:focus {
+  box-shadow: none;
+}
+.form-wrap .btn-login {
+  background-color: #f54d3c;
+  color: #fff;
+  width: 70%;
+  margin-left: 15%;
+  box-shadow: none;
+  border: 1px solid #f54d3c;
+}
+.form-wrap .btn-login:focus {
+  color: #fff;
+}
+.form-wrap .btn-login:hover {
+  background-color: #E74C3C;
 }
 /********************************/
 ::-webkit-scrollbar-track,
